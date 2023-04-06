@@ -1,0 +1,123 @@
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body
+{background-color:rgb(245, 144, 144) ;
+  margin: 0%;
+  background-image: url(https://download.logo.wine/logo/Premier_League/Premier_League-Logo.wine.png) ;
+  font-family:'Roboto', sans-serif;
+  
+ }
+/*  
+#container
+{
+    width: 968px;
+    margin: 0px auto;
+} */ */
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*header section ==============*/
+.header
+{
+    background: #16a116;
+    height:75px;
+   margin: 90px;
+   
+}
+nav
+{
+padding: 11px;
+list-style-type: none;
+text-align: right;
+background-color: #2e0c58;
+margin: 10px;
+border-radius: 3px;
+align-items: center;
+
+}
+
+p{
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+}
+  nav li {
+    display: inline;
+    color: #fff; 
+
+  }
+
+  nav li a  {
+      text-decoration: none;
+      color: red;
+      justify-content: space-evenly;
+      margin-left: 20px;
+  }
+
+
+    
+
+
+/*     
+.container{
+  display: grid;
+ grid-template-columns: auto auto auto;
+ justify-content: space-between;
+} */
+
+.rose{
+  width: 20%;
+  display: flex;
+  padding-bottom: 100;
+}
+
+.kontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background:white ;
+  width:400px;
+  height:900px;
+  margin:10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-items{
+  
+}
+
+img{
+  width: 100%;
+  height: 200px;
+}
+
+/* .car-1{
+  background-image: url(bugatti-veyron-2011-bugatti-veyron-164-super-sport-review-car-and-driver-photo-370402-s-original.jpg);
+}
+
+.car-2{
+  background-image: url(download.jpeg);
+}
+
+.car-3{background-image: url(download\ \(1\).jpeg);
+
+} */
+
+
